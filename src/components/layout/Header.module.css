@@ -34,6 +34,12 @@
   transition: all 0.1s ease-in-out;
 }
 
+.nav li a {
+  padding: 8px 15px;
+  font-size: 1rem;
+  color: #007bff;
+}
+
 .logo_txt a:hover {
   color: #007bff;
 }
@@ -46,12 +52,6 @@
   display: flex;
   gap: 1rem;
   list-style-type: none;
-}
-
-.nav li a {
-  padding: 8px 15px;
-  font-size: 1rem;
-  color: #007bff;
 }
 
 .nav li:last-child a {
