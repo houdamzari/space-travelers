@@ -1,7 +1,7 @@
-import { Link, NavLink } from 'react-router-dom';
+import { Link, NavLink } from "react-router-dom";
 
-import logo from '../../assets/space-travelers.png';
-import classes from './Header.module.css';
+import logo from "../../assets/space-travelers.png";
+import classes from "./Header.module.css";
 
 const Header = () => (
   <header className={classes.header}>
@@ -24,7 +24,7 @@ const Header = () => (
           <NavLink to="/missions">Missions</NavLink>
         </li>
         <li>
-          <NavLink to="/my-profile">My Profile</NavLink>
+          <NavLink to="/profile">My Profile</NavLink>
         </li>
       </ul>
     </nav>
