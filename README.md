@@ -26,12 +26,15 @@
 
 # 📖 [Space Travelers] <a name="about-project"></a>
 
-
-**[Space Travelers]** is a  . 
+**[Space Travelers]** is a commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions and also users can remove reservation.
 
 ## 🛠 Built With <a name="built-with"></a>
 
-- React JS
+- React
+- Redux
+- JavaScript
+- Html
+- CSS
 
 <!-- GETTING STARTED -->
 
@@ -51,15 +54,17 @@
 
 ### Key Features <a name="key-features"></a>
 
-- Click on Categories and Display a Status
-- Click on Books and display a list of Books
+- Users can see space traveler's rockets and join the missions.
+- Users can reserved the rockets
+- Users can join missions
+- Users can remove reserved rockets and mission
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 #### 🔭 Future Features <a name="future-features"></a>
 
-- [ ] ***
-- [ ] ***
+- [ ] **_ We will store user booking rockets and joining missions in a another api. _**
+- [ ] **_ We will add more styles to make our project better _**
 
 ### Prerequisites
 
@@ -98,12 +103,14 @@ Example commands:
 - -👤 **Houda MZARI**
 
 - -- GitHub: [@houdamzari](https://github.com/houdamzari)
-- -- GitHub: [@raihan](https://github.com/houdamzari)
-
   -- LinkedIn: [@houdamzari](https://www.linkedin.com/in/houda-mzari-2304401b1/)
-  -- LinkedIn: [@houdamzari](https://www.linkedin.com/in/houda-mzari-2304401b1/)
-
   -- Portfolio [@houdamzari](https://houdamzari.github.io/Portfolio-Website/)
+
+- -👤 **Abu Raihan**
+- -- GitHub: [@raihan](https://github.com/raihan2bd)
+  -- LinkedIn: [@houdamzari](https://www.linkedin.com/in/raihan2bd/)
+  -- Portfolio [@houdamzari](https://raihan2bd.github.io/portfolio/)
+
   <a name="readme-top"></a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
