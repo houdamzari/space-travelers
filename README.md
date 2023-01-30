@@ -98,7 +98,9 @@ Example commands:
 - -👤 **Houda MZARI**
 
 - -- GitHub: [@houdamzari](https://github.com/houdamzari)
+- -- GitHub: [@raihan](https://github.com/houdamzari)
 
+  -- LinkedIn: [@houdamzari](https://www.linkedin.com/in/houda-mzari-2304401b1/)
   -- LinkedIn: [@houdamzari](https://www.linkedin.com/in/houda-mzari-2304401b1/)
 
   -- Portfolio [@houdamzari](https://houdamzari.github.io/Portfolio-Website/)
