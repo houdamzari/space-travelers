@@ -65,3 +65,7 @@
 .active {
   color: #333;
 }
+
+.underline {
+  border-bottom-width: 2px;
+}
