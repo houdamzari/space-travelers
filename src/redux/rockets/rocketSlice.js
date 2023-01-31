@@ -10,7 +10,7 @@ export const fetchRocketsData = createAsyncThunk(
     const { data } = response;
     data.map((rocket) => {
       return {
-        id: rocket.rocket_id,
+        rocket_id: rocket.id,
         rocket_name: rocket.rocket_name,
         rocket_type: rocket.rocket_type,
         rocket_description: rocket.rocket_description,
