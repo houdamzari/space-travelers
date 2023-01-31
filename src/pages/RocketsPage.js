@@ -1,3 +1,5 @@
-const RocketsPage = () => <h2>Hello From Rockets Page</h2>;
+import Rockets from "../components/Rockets/Rockets";
+
+const RocketsPage = () => <Rockets />;
 
 export default RocketsPage;
