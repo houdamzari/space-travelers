@@ -40,7 +40,6 @@ const missions = createSlice({
 
       return { missions: [...newMissions] };
     },
-
     leaveMission(state, { payload }) {
       const newMissions = state.missions.map((mission) => {
         if (mission.mission_id === payload) {

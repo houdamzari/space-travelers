@@ -29,7 +29,13 @@ const Missions = () => {
               </td>
               <td className={classes.actions}>
                 {mission.reserved ? (
-                  <button className={classes.btn_leavemission} type="button">
+                  <button
+                    onClick={() =>
+                      dispatch(missionsActions.leaveMission(mission.mission_id))
+                    }
+                    className={classes.btn_leavemission}
+                    type="button"
+                  >
                     Leave Mission
                   </button>
                 ) : (
