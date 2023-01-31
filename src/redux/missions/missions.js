@@ -1,10 +1,10 @@
-import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
-import axios from 'axios';
+import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
+import axios from "axios";
 
 export const fetchMishions = createAsyncThunk(
-  'missions/fetch-missions',
+  "missions/fetch-missions",
   async () => {
-    const response = await axios.get('https://api.spacexdata.com/v3/missions');
+    const response = await axios.get("https://api.spacexdata.com/v3/missions");
     if (response.status !== 200) return [];
     const data = response.data.map((mission) => {
       return {
@@ -23,7 +23,7 @@ const initialState = {
 };
 
 const missions = createSlice({
-  name: 'missions',
+  name: "missions",
   initialState,
   reducers: {},
   extraReducers: (builder) => {
