@@ -1,10 +1,11 @@
-import { useSelector, dispatch, useDispatch } from 'react-redux';
+import { useSelector, dispatch, useDispatch } from "react-redux";
 
-import { missionsActions } from '../../redux/missions/missions';
-import classes from './Missions.module.css';
+import { missionsActions } from "../../redux/missions/missions";
+import classes from "./Missions.module.css";
 
 const Missions = () => {
   const missions = useSelector((state) => state.missions.missions);
+  console.log(missions);
   const dispatch = useDispatch();
 
   let missionsContent = <p>There is No Mission to render</p>;
