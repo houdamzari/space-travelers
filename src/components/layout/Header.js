@@ -1,14 +1,14 @@
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink } from 'react-router-dom';
 
-import logo from "../../assets/space-travelers.png";
-import classes from "./Header.module.css";
+import logo from '../../assets/space-travelers.png';
+import classes from './Header.module.css';
 
 const Header = () => {
   let activeStyle = {
-    textDecoration: "underline",
+    textDecoration: 'underline',
   };
 
-  let activeClassName = "underline";
+  let activeClassName = 'underline';
 
   return (
     <header className={classes.header}>
@@ -19,7 +19,7 @@ const Header = () => {
           </div>
           <div className={classes.logo_txt}>
             <Link to="/">
-              <h1>Space Travelers&apos; Hub</h1>
+              <h1>Space Traveler&apos;s Hub</h1>
             </Link>
           </div>
         </div>
