@@ -2,7 +2,6 @@
 import React from "react";
 import "./Rocket.css";
 function Rocket({ item }) {
-  console.log(item);
   return (
     <div className="rocket__info">
       <img
