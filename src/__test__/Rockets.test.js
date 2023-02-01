@@ -3,8 +3,7 @@ import renderer from "react-test-renderer";
 import { Provider } from "react-redux";
 import store from "../redux/store";
 import Rockets from "../components/Rockets/Rockets.js";
-import Rocket from "../components/Rocket/Rocket";
-import { render } from "@testing-library/react";
+
 describe("testing if rockets data is rendering", () => {
   test("component test", () => {
     const test = renderer.create(
