@@ -7,6 +7,7 @@ import {
   cancelReservation,
 } from "../../redux/rockets/rocketSlice";
 function Rocket({ item }) {
+
   const dispatch = useDispatch();
   const reserveBtnHandler = () => {
     dispatch(reserveRocket(item.rocket_id));
