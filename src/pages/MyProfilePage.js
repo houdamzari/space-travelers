@@ -1,3 +1,5 @@
+import { useSelector } from 'react-redux';
+
 import classes from './MyProfilePage.module.css';
 
 const DUMMY_ROCKETS = [
@@ -24,32 +26,10 @@ const DUMMY_ROCKETS = [
   },
 ];
 
-const DUMMY_MISSIONS = [
-  {
-    mission_id: '1',
-    mission_name: 'Starship',
-    description:
-      'Starship and Super Heavy Rocket represent a fully reusable transportation system designed to service all Earth orbit needs as well as the Moon and Mars. This two-stage vehicle — composed of the Super Heavy rocket (booster) and Starship (ship) — will eventually replace Falcon 9, Falcon Heavy and Dragon.',
-    reserved: true,
-  },
-  {
-    mission_id: '2',
-    mission_name: 'Starship',
-    description:
-      'Starship and Super Heavy Rocket represent a fully reusable transportation system designed to service all Earth orbit needs as well as the Moon and Mars. This two-stage vehicle — composed of the Super Heavy rocket (booster) and Starship (ship) — will eventually replace Falcon 9, Falcon Heavy and Dragon.',
-    reserved: false,
-  },
-  {
-    mission_id: '3',
-    mission_name: 'Starship',
-    description:
-      'Starship and Super Heavy Rocket represent a fully reusable transportation system designed to service all Earth orbit needs as well as the Moon and Mars. This two-stage vehicle — composed of the Super Heavy rocket (booster) and Starship (ship) — will eventually replace Falcon 9, Falcon Heavy and Dragon.',
-    reserved: true,
-  },
-];
-
 const MyProfilePage = () => {
-  const reservedMissions = DUMMY_MISSIONS.filter(
+  const missions = useSelector((state) => state.missions.missions);
+
+  const reservedMissions = missions.filter(
     (mission) => mission.reserved !== false
   );
   const reservedRockets = DUMMY_ROCKETS.filter(
