@@ -23,7 +23,14 @@ function Rocket({ item }) {
       />
       <div className="rocket__info-details">
         <h4 className="rocket__info-heading">{item.rocket_name}</h4>
-        <p className="rocket__info-description">{item.rocket_description}</p>
+        <div className="rocket__info-reservation-inf">
+          <p className="rocket__info-description">
+            {item.reserved && (
+              <span className="rocket__info-reserved">Reserved</span>
+            )}
+            {item.rocket_description}
+          </p>
+        </div>
         {item.reserved ? (
           <button
             className="rocket__info-btn cancel"
