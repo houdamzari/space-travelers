@@ -19,7 +19,7 @@ const App = () => {
 
   useEffect(() => {
     dispatch(fetchRocketsData());
-  }, []);
+  }, [dispatch]);
 
   return (
     <Layout>
