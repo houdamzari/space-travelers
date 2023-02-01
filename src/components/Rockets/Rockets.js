@@ -7,7 +7,7 @@ function Rockets(props) {
   return (
     <section className="rocket__list">
       {rockets.map((item) => (
-        <Rocket item={item} key={item.id} />
+        <Rocket item={item} key={item.rocket_id} />
       ))}
     </section>
   );
