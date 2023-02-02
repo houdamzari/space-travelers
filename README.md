@@ -1,5 +1,3 @@
-<!-- TABLE OF CONTENTS -->
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -22,8 +20,6 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
-
 # 📖 [Space Travelers] <a name="about-project"></a>
 
 **[Space Travelers]** is a commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions and also users can remove reservation.
@@ -35,8 +31,6 @@
 - JavaScript
 - Html
 - CSS
-
-<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -72,31 +66,12 @@ In order to run this project you need:
 
 - node js installed
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
-
 ### Setup
 
 Clone this repository to your desired folder:
 
 - run npm install
 - run npm start to start the server
-
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
-
-<!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors">Houda MZARI</a>
 
@@ -115,8 +90,6 @@ Example commands:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTRIBUTING -->
-
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
@@ -130,8 +103,6 @@ Feel free to check the [issues page](../../issues/).
 - npm install react-test-renderer --save-dev
 - npm install --save-dev @testing-library/react
 - npm run test
-
-<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
