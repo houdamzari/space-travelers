@@ -1,13 +1,13 @@
-/* eslint-disable react/prop-types */
-import React from "react";
-import "./Rocket.css";
-import { useDispatch, useSelector } from "react-redux";
+import React from 'react';
+import PropTypes from 'prop-types';
+import './Rocket.css';
+import { useDispatch } from 'react-redux';
 import {
   reserveRocket,
   cancelReservation,
-} from "../../redux/rockets/rocketSlice";
-function Rocket({ item }) {
+} from '../../redux/rockets/rocketSlice';
 
+function Rocket({ item }) {
   const dispatch = useDispatch();
   const reserveBtnHandler = () => {
     dispatch(reserveRocket(item.rocket_id));
@@ -19,7 +19,7 @@ function Rocket({ item }) {
     <div className="rocket__info">
       <img
         className="rocket__info-image"
-        src={item.rocket_images[0]}
+        src={item.rocket_image}
         alt="Rocket"
       />
       <div className="rocket__info-details">
@@ -48,5 +48,9 @@ function Rocket({ item }) {
     </div>
   );
 }
+
+Rocket.propTypes = {
+  item: PropTypes.object.isRequired,
+};
 
 export default Rocket;
