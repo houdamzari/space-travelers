@@ -1,5 +1,3 @@
-<!-- TABLE OF CONTENTS -->
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -22,18 +20,17 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
-
 # 📖 [Space Travelers] <a name="about-project"></a>
 
-
-**[Space Travelers]** is a  . 
+**[Space Travelers]** is a commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions and also users can remove reservation.
 
 ## 🛠 Built With <a name="built-with"></a>
 
-- React JS
-
-<!-- GETTING STARTED -->
+- React
+- Redux
+- JavaScript
+- Html
+- CSS
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -51,29 +48,23 @@
 
 ### Key Features <a name="key-features"></a>
 
-- Click on Categories and Display a Status
-- Click on Books and display a list of Books
+- Users can see space traveler's rockets and join the missions.
+- Users can reserved the rockets
+- Users can join missions
+- Users can remove reserved rockets and mission
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 #### 🔭 Future Features <a name="future-features"></a>
 
-- [ ] ***
-- [ ] ***
+- [ ] **_ We will store user booking rockets and joining missions in a another api. _**
+- [ ] **_ We will add more styles to make our project better _**
 
 ### Prerequisites
 
 In order to run this project you need:
 
 - node js installed
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
 
 ### Setup
 
@@ -82,31 +73,22 @@ Clone this repository to your desired folder:
 - run npm install
 - run npm start to start the server
 
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
-
-<!-- AUTHORS -->
-
 ## 👥 Authors <a name="authors">Houda MZARI</a>
 
 - -👤 **Houda MZARI**
 
 - -- GitHub: [@houdamzari](https://github.com/houdamzari)
-
   -- LinkedIn: [@houdamzari](https://www.linkedin.com/in/houda-mzari-2304401b1/)
-
   -- Portfolio [@houdamzari](https://houdamzari.github.io/Portfolio-Website/)
+
+- -👤 **Abu Raihan**
+- -- GitHub: [@raihan](https://github.com/raihan2bd)
+  -- LinkedIn: [@houdamzari](https://www.linkedin.com/in/raihan2bd/)
+  -- Portfolio [@houdamzari](https://raihan2bd.github.io/portfolio/)
+
   <a name="readme-top"></a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -122,8 +104,6 @@ Feel free to check the [issues page](../../issues/).
 - npm install --save-dev @testing-library/react
 - npm run test
 
-<!-- SUPPORT -->
-
 ## ⭐️ Show your support <a name="support"></a>
 
 > Write a message to encourage readers to support your project
@@ -134,6 +114,6 @@ If you like this project star it
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/houdamzari/Math-Magicians/blob/feature/events/LICENSE) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
